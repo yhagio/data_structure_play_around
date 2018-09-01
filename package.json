@@ -1,0 +1,37 @@
+{
+  "name": "intro_data_structure",
+  "version": "0.1.0",
+  "description": "practice makes perfect",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "typescript",
+    "data structure"
+  ],
+  "author": "Yuichi Hagio",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "23.3.1",
+    "jest": "23.5.0",
+    "ts-jest": "23.1.4",
+    "typescript": "3.0.1"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "ts-jest"
+    },
+    "testRegex": "(/src/.*(\\.)(spec))\\.(ts)$",
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ],
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  }
+}
